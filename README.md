@@ -16,3 +16,13 @@ The `disposable_camera.ipynb` notebook gives your digital images a nostalgic, di
 
 ### Usage
 Open the notebook and configure the `IMAGE_PATH` and `OUTPUT_FOLDER` in the "Configuration" section to process your images.
+
+## Object Detection
+
+The `object_detection.ipynb` notebook demonstrates object detection on large images using YOLO models.
+
+### Features
+*   **YOLOv11 Integration**: Uses Ultralytics YOLO models (nano and x-large) for detection.
+*   **Tiling Strategy**: Splits high-resolution images into tiles to improve detection accuracy on small objects.
+*   **Non-Maximum Suppression (NMS)**: Merges detections from multiple tiles and removes duplicates.
+*   **Inline Visualization**: Displays processed images with bounding boxes directly in the notebook using Matplotlib.
