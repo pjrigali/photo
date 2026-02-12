@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# Project specific ignores (data, models, outputs, scripts)
+01_Model/
+02_Outputs/
+*.csv
+*.pt
+photo.ipynb
+photo_main.py
+disposable_camera_explainer.md
+__init__.py
